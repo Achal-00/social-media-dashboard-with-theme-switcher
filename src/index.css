@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .facebook {
+    border-top: 0.35em solid hsl(208, 92%, 53%);
+  }
+
+  .twitter {
+    border-top: 0.35em solid hsl(203, 89%, 53%);
+  }
+
+  .instagram-light {
+    background: linear-gradient(hsl(227, 47%, 96%), hsl(227, 47%, 96%))
+        padding-box,
+      linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+        border-box;
+    border-top: 0.35em solid transparent;
+  }
+
+  .instagram-dark {
+    background: linear-gradient(hsl(228, 28%, 20%), hsl(228, 28%, 20%))
+        padding-box,
+      linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+        border-box;
+    border-top: 0.35em solid transparent;
+  }
+
+  .youtube {
+    border-top: 0.35em solid hsl(348, 97%, 39%);
+  }
+}
